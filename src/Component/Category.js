@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import '../Component/style.css';
 import Categories from './Categories';
-import search from '../Component/images/search.svg'
+//import search from '../Component/images/search.svg'
 
 
 
@@ -18,18 +18,18 @@ const Category = () => {
     <>
     <h1 className='text-center mt-5'>Products for You</h1>
 
-<div className=" d-flex flex-row">
-  <div className="row">
-    <div className="col-md-3 mt-3 mx-5">
-        {/* <div className="btn btn-warning w-100 p-2 mx-2 fs-4 fw-bold" onClick={()=>setData(Categories)}>All</div>
-        <div className="btn btn-warning w-100 p-2 mx-2 fs-4 fw-bold" onClick={()=>filterResult('Men')}>Men</div>
-        <div className="btn btn-warning w-100 p-2 mx-2 fs-4 fw-bold" onClick={()=>filterResult('Women')}>Women</div>
-        <div className="btn btn-warning w-100 p-2 mx-2 fs-4 fw-bold" onClick={()=>filterResult('Kids')}>Kids</div> */}
+<div className="d-flex">
+  <div className="row mt-5 mx-2">
+    <div className="flex-row col-md-3 mt-3 w-75 mx-5">
+        <div className="btn btn-warning w-100 mb-4 p-2 mx-2 fs-4 fw-bold" onClick={()=>setData(Categories)}>All</div>
+        <div className="btn btn-warning w-100 mb-4 p-2 mx-2 fs-4 fw-bold" onClick={()=>filterResult('Men')}>Men</div>
+        <div className="btn btn-warning w-100 mb-4 p-2 mx-2 fs-4 fw-bold" onClick={()=>filterResult('Women')}>Women</div>
+        <div className="btn btn-warning w-100 mb-4 p-2 mx-2 fs-4 fw-bold" onClick={()=>filterResult('Kids')}>Kids</div> 
 
-        <div className='w-100 d-block border border-2 border-rounded-pill'>
+        {/* <div className='w-100 d-block border border-2 border-rounded-pill'>
           <img className='w-25 muted' src= {search} alt="search" /> 
           <input type="text" className='w-100 p-2 m-2 border-none ' />
-          </div>
+          </div> */}
     </div>
   </div>
 

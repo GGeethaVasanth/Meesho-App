@@ -7,6 +7,8 @@ import SecondBanner from './Component/SecondBanner';
 import "./Component/style.css"
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Category from './Component/Category';
+import ThirdBanner from './Component/ThirdBanner';
+//import Categories from './Component/Categories';
 
 
 
@@ -22,12 +24,12 @@ function App() {
     </div>
     <div>
       <FirstBanner/>
-    </div>
-    <div>
       <SecondBanner/>
+      <ThirdBanner/>
     </div>
     <div>
       <Category/>
+      
     </div>
     </div>
   );

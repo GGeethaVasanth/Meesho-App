@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    
 }
 body{
     margin:0px;
@@ -273,15 +274,18 @@ nav ul li:hover .subMenu{
     width: 1100px;
     margin: auto;
 }
-.topCategoriesHeading{
+/* .topCategoriesHeading{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    overflow-y: hidden;
     
-}
+} */
 .horizontalLine{
     padding: .5px;
     background-color: grey;
     width:50%;
+    
 }
 .topCategoriesHeading h1{   
     width: max-content;
@@ -313,6 +317,10 @@ nav ul li:hover .subMenu{
     width:300px;
     height:400px;
     object-fit:contain;
+}
+
+.d-flex{
+    overflow-x:hidden;
 }
 
 
